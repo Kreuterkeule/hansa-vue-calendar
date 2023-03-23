@@ -45,6 +45,16 @@ export default {
           url: 'http://localhost:1069/public.ics',
           format: 'ics',
         },
+        firstDay: 1,
+        locale: 'de',
+        buttonText: {
+          today: 'Heute',
+          month: 'Monat',
+          week: 'Woche',
+          day: 'Tag',
+          list: 'Liste',
+        },
+
       },
       currentEvents: [],
     };
